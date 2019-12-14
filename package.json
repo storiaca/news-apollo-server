@@ -1,0 +1,24 @@
+{
+  "name": "news-apollo-server",
+  "version": "1.0.0",
+  "description": "Graphql apollo2 server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/storiaca/news-apollo-server.git"
+  },
+  "keywords": [
+    "graphql",
+    "apollo",
+    "server"
+  ],
+  "author": "Aleksandar Ristic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/storiaca/news-apollo-server/issues"
+  },
+  "homepage": "https://github.com/storiaca/news-apollo-server#readme"
+}
