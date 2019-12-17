@@ -4,10 +4,7 @@ import { resolvers } from "./resolvers";
 
 const server = new ApolloServer({
   typeDefs,
-  resolvers,
-  dataSources: () => ({
-    ...datasources
-  })
+  resolvers
 });
 
 server.listen().then(({ url }) => {
