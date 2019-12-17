@@ -1,7 +1,6 @@
 export const resolvers = {
   Query: {
-    articleBySource: (parent, { id, source }, context, info) => {
-      console.log("context", context);
-    }
+    articleBySource: (_, { id, source }, { dataSources }) =>
+      dataSources[source].getArticle(id, source)
   }
 };
