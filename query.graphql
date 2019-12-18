@@ -8,3 +8,5 @@ query getMeAnArticle($id: ID!, $source: String!) {
     source
   }
 }
+# query variables
+# {"id": 21168364, "source": "hackernews"}
