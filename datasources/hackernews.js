@@ -1,6 +1,6 @@
 import { RESTDataSource } from "apollo-datasource-rest";
 
-export class HackerNewsApi extends RESTDataSource {
+export class HackerNewsAPI extends RESTDataSource {
   constructor() {
     super();
     this.baseURL = "https://hacker-news.firebaseio.com/v0/";

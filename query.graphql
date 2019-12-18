@@ -1,0 +1,10 @@
+query getMeAnArticle($id: ID!, $source: String!) {
+  articleBySource(id: $id, source: $source) {
+    id
+    title
+    author
+    url
+    time
+    source
+  }
+}
